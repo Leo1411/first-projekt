@@ -1,0 +1,519 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  color: #231f20;
+}
+
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 116px;
+}
+
+.logo {
+  margin-left: 70px;
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: #231f20;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #231f20;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+
+
+.gift-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;
+  border: 1px solid #f7941e;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: #f7941e;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0em;
+  
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f2;
+}
+
+.hero-content {
+  margin-left: 190px;
+  width: 433px;
+  height: 411px;
+}
+
+.hero-content h1 {
+
+  font-size: 56px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 100%;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height:141%;
+  letter-spacing: 0em;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.btn-primary {
+  background-color: #F7941E;
+  color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0em;
+  border-radius: 5px;  
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-image img {
+  display: flex;
+  object-fit: cover;
+}
+
+.gift {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f2;
+}
+
+.gift-content {
+  margin-right: 190px;
+  width: 433px;
+  height: 411px;
+}
+
+.gift-content h1 {
+
+  font-size: 56px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 100%;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+
+.gift-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height:141%;
+  letter-spacing: 0em;
+  color: #000000;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.btn-gift {
+  color: #F7941E;
+  border: 1px solid #f7941e;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0em;
+  border-radius: 5px;  
+  align-items: center;
+  text-align: center;
+}
+
+
+.gift-image img {
+  display: flex;
+  object-fit: cover;
+}
+
+.card-section {
+  text-align: center;
+  padding: 120px 0;
+  color: #000000;
+}
+
+.card-section h1 {
+  margin-bottom: 35px;
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 100%;
+ letter-spacing: 0em; 
+}
+
+.card-section p {
+font-weight: 400px;
+font-size: 18px;
+line-height: 136%;
+letter-spacing: 0em;
+margin-bottom: 35px;
+}
+
+.card-container {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1179px;
+  margin: 0 auto;
+}
+
+.card-birthday {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 15px 0px #0000000D;
+}
+
+.card {
+  background-color: #fafafa;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-birthday img {
+  object-fit: cover;
+}
+
+
+.card-info h2 {
+margin-top: 15px;
+margin-bottom: 80px;
+margin-left: 20px;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0em;
+}
+
+.card-info a {
+  display: flex;
+  font-family: Roboto;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 136%;
+  letter-spacing: 0em;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.contact-section {
+  background-color:#F7941E ;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-text {
+  margin-left: 448px;
+}
+
+.contact-text h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 141%;
+  letter-spacing: 0em;
+}
+
+.contact-text p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 141%;
+  letter-spacing: 0em;
+}
+
+.contact-btn {
+  display: flex;
+  gap: 15px;
+  margin-right: 579px;
+}
+
+.btn {
+background-color:#231F20 ;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0em;
+border-radius: 4px;
+border: 1px;
+padding: 13px 25px;
+}
+
+.btn-work {
+ background-color: transparent;
+ color: #000000 ;
+ border: 1px solid #000000;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 135%;
+ letter-spacing: 0em;
+ border-radius: 4px;
+ padding: 13px 25px;
+}
+
+.last-section {
+  align-items: center;
+  justify-content: center
+}
+
+.blog-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 92px;
+  margin-top: 92px;
+}  
+
+
+.blog-text h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0em;
+  margin-bottom: 35px;
+}
+
+.blog-text p {
+font-weight: 400;
+font-size: 18px;
+line-height: 136%;
+letter-spacing: 0em;
+}
+
+.blog-container {
+  display: flex;
+  max-width: 1170px;
+  max-height: 370px;
+  background-color:#231F20 ;
+  margin: auto;
+}
+
+.blog-img img {
+object-fit: cover;
+}
+
+.blog-info {
+  color:#FFFFFF ;
+  margin-left: 70px;
+}
+
+.blog-info p {
+  margin-top: 55px;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141%;
+  letter-spacing: 0em;
+}
+
+.blog-info h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0em;
+  margin-bottom: 85px;
+}
+
+.blog-info a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 141%;
+  letter-spacing: 0em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.blog-card {
+  box-shadow: 10px 10px 15px 0px #0000000D;
+  width: 570px;
+  height: 290px;
+}
+
+.blog-card h1 {
+font-weight: 700;
+font-size: 24px;
+line-height: 141%;
+letter-spacing: 0em;
+margin-left: 35px;
+margin-bottom: 25px;
+margin-top: 45px;
+}
+
+.blog-card p {
+font-weight: 400;
+font-size: 18px;
+line-height: 141%;
+letter-spacing: 0em;
+margin-left: 35px;
+margin-bottom: 40px;
+}
+
+.blog-card a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141%;
+  letter-spacing: 0em;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+.sblog-card {
+   width: 570px;
+   height: 290px;
+}
+
+.sblog-card h1 {
+font-weight: 700;
+font-size: 24px;
+line-height: 141%;
+letter-spacing: 0em;
+margin-left: 35px;
+margin-top: 45px;
+margin-bottom: 25px;
+}
+
+.sblog-card p {
+font-weight: 400;
+font-size: 18px;
+line-height: 141%;
+letter-spacing: 0em;
+margin-left: 35px;
+margin-bottom: 40px;
+}
+
+.sblog-card a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141%;
+  letter-spacing: 0em;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom:50px ;
+}
+.footer {
+   background-color:  #FAFAFA;
+   padding-top: 170px;
+   height: 530px;
+}
+
+.link-left{
+display: flex;
+gap: 85px;
+}
+
+.link-left a {
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 141%;
+ letter-spacing: 0em;
+ color: #000000;
+ text-decoration: none;
+}
+
+.footer-logo {
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: #F7941E;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.link-right {
+display: flex;
+gap: 85px;
+}
+
+.link-right a {
+font-weight: 700;
+ font-size: 14px;
+ line-height: 141%;
+ letter-spacing: 0em;
+ color: #000000;
+ text-decoration: none;
+}
+
+.line-border {
+  border: 1px solid #000000;
+  margin: auto;
+  width: 1200px;
+}
+
+.socialpng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 70px;
+}
+
+.year {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+
+}
